@@ -10,17 +10,19 @@ Persian: Corresponding translations in Persian (Farsi)
 
 ## 📥 Data Source
 
-The data was extracted from the IR-Translate Dictionary pages (p=1 to p=448), specifically filtering for mathematical vocabulary. For more math terms and translations, visit the IR-Translate homepage.
+The data was extracted from the IR-Translate Dictionary, specifically filtering for mathematical vocabulary. For more math terms and translations, visit the IR-Translate homepage.
 
 ---
 
 ## 📁 Repository Structure
 
+```
 .
 ├── data/
 │   └── en-fa-math-dictionary.csv  # Dataset of English-Persian mathematical terms
 ├── LICENSE                       # MIT License
 └── README.md                     # This file
+```
 
 ---
 
