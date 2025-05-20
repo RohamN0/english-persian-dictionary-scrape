@@ -28,14 +28,18 @@ The data was extracted from the IR-Translate Dictionary pages (p=1 to p=448), sp
 
 Clone the repository:
 
+```bash
 git clone https://github.com/<username>/english-persian-math-dictionary-scrape.git
 cd english-persian-math-dictionary-scrape
+```
 
 Load the CSV in Python:
 
+```python
 import pandas as pd
 
 df = pd.read_csv("data/en-fa-math-dictionary.csv")
 print(df.head())
+```
 
 Or open it in your favorite spreadsheet application.
